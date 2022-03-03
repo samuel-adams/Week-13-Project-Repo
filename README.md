@@ -133,16 +133,27 @@ _TODO: Answer the following questions to fill in the blanks:_
 	sysadmin@10.1.0.4: curl localhost:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
 sudo apt-get update
 
 sudo apt install docker.io
+
 sudo service docker start
+
 systemctl status docker
+
 sudo docker pull cyberxsecurity/ansible
+
 sudo docker run -ti cyberxsecurity/ansible bash
+
 sudo docker start <image-name>
+	
 sudo docker ps -a
+	
 sudo docker attach <image-name>
+	
 ssh-keygen
+	
 ansible -m ping all
+	
 
