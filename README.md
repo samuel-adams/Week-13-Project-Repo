@@ -134,6 +134,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 sudo apt-get update
+
 sudo apt install docker.io
 sudo service docker start
 systemctl status docker
